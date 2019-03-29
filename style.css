@@ -1,0 +1,34 @@
+html, body{
+	font-family: Arial, sans-serif;
+  font-weight: 300;
+  margin: 8px;
+}
+div{
+	display: block;
+}
+section {
+	display: block;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border: 2px solid #336699;
+}
+.container div{
+    padding: 120px;
+    margin: 70px;
+    border: 1px solid red;
+    flex: 2 1 10em;
+    text-align: left;
+
+}
+.grid{
+	padding: 10px;
+	border: 2px;
+}
+.boxen{
+    display: flex;
+    flex-direction: column;
+}
